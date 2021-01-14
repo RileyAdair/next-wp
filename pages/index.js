@@ -11,7 +11,7 @@ export default function Home({ posts }) {
         <title>Click Here Labs Blog</title>
       </Head>
       <main>
-        <h1>Click Here Labs Blog</h1>
+        <h1>Click Here Labs Blog - Headless WPE</h1>
         {posts.map(post => (
           <article key={post.id}>
             <h2>{post.title.rendered}</h2>
